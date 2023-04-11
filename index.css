@@ -57,6 +57,14 @@
   border-radius: 50%;
 }
 
+.reset-style {
+  padding: 0;
+}
+
+.col {
+  padding: 0;
+}
+
 @media screen and (max-width: 576px) {
   /* XS */
   body {
@@ -80,14 +88,14 @@
   }
   
   .desc {
-    margin-top: 25px;
-    font-size: 15px;
+    margin-top: 23px;
+    font-size: 13px;
   }
 }
 
 /* 672 */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 577px) {
   /* SM */
   body {
     margin: 0;
@@ -101,7 +109,7 @@
 
 /* 880 */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) and (min-width: 769px) {
   /* MD */
   body {
     margin: 0;
@@ -115,7 +123,7 @@
 
 /* 1096 */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) and (min-width: 993px) {
   /* LG */
   body {
     margin: 0;
@@ -142,7 +150,7 @@
 
 /* 1300 */
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1400px) and (min-width: 1201px) {
   /* XL */
   body {
     margin: 0;
@@ -173,6 +181,22 @@
     margin: 0;
     padding: 0;
     height: 100vh;
+  }
+  .greeting {
+    font-size: 50px;
+  }
+  
+  .name {
+    font-size: 70px;
+  }
+  
+  .job {
+    font-size: 50px;
+  }
+  
+  .desc {
+    margin-top: 30px;
+    font-size: 20px;
   }
 }
 
